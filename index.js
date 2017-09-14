@@ -2,8 +2,8 @@
 
 module.exports = {
   'environments': {
-    'salesforce': {
-      'commercecloud': {
+    'globals': {
+      'globals': {
         'dw': true,
         'importPackage': true,
         'importScript': true,
@@ -14,9 +14,17 @@ module.exports = {
         'HTTPService': true,
         'PipelineDictionary': true,
         'PIPELET_NEXT': true,
+        'PIPELET_ERROR': true,
         'Service': true,
         'ServiceRegistry': true,
-        'Site': true
+        'app': true,
+        'Encoding': true,
+        'Bytes': true,
+        'Pipeline': true,
+        'ProductMgr': true,
+        'page': true,
+        'customer': true,
+        'empty': true
       }
     }
   }
