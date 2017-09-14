@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-salesforce-commercecloud",
+  "version": "0.0.0",
+  "description": "adding globals for salesforce commerce cloud",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "salesforce",
+    "commercecloud"
+  ],
+  "author": "Thorsten Huth <t.huth@engelhorn.de>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t-huth/eslint-plugin-salesforce-commercecloud.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
